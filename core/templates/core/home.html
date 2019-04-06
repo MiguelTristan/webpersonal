@@ -1,0 +1,15 @@
+{% extends "core/base.html" %}
+
+<!--Estos 'block title' son inyectados en el 'block title de la plantilla base' los 'block' se comportan como conectores-->
+{% block title %}Home{% endblock  %} 
+
+{% block background %}{% load static %}{% static 'core/img/home.jpg' %}{% endblock  %}    
+
+{% block headers %}
+<h1>Imperial</h1>
+<span class="subheading">Aceros</span>
+{% endblock %}
+
+{% block content %}
+
+{% endblock  %}

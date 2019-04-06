@@ -1,0 +1,22 @@
+{% extends "core/base.html" %}
+
+{% block title %}Acerca de{% endblock  %}
+
+{% block background %}{% load static %}{% static 'core/img/labodega.jpg' %}{% endblock  %}
+
+{% block headers %}
+<h1>Acerca de</h1>
+<span class="subheading">Biografía</span>
+{% endblock %}
+
+{% block content %}
+<div class="row">
+<div class="col-lg-3 col-md-4 offset-lg-1">
+        <img class="img-fluid avatar" src="{% static 'core/img/aceros.jpg' %}" alt="">
+      </div>
+      <div class="col-lg-7 col-md-8">
+        <h2 class="section-heading">Imperial</h2>
+        <p>En Aceros Imperial somos una empresa de calidad comprobada, dedicada a la fabricación, comercialización y distribución de Productos de Acero, todos los servicios o artículos que tenemos disponibles son ideales para la industria, el comercio y trabajos en minería y construcción.</p>
+      </div>
+</div>
+{% endblock  %}
